@@ -120,16 +120,15 @@ main .main-title{
 
 main .title{
   height: 80px;
-  margin-bottom: 10px;
+  
   
 }
 
-.col-sx,.col-dx{
-
-  
-  float: left;
-  
+.title p{
+  color: grey;
 }
+
+/*COLONNA SX*/
 
 .col-sx {
   background-image: url(../img/img-1.jpg);
@@ -139,24 +138,22 @@ main .title{
   width: 19%;
   border-radius: 10px;
   margin-right: 1%;
+  float: left;
   
   
 }
-
-
-.col-sx-text{
- 
-}
-
 
 .col-sx-text p{
   text-align: justify;
   font-size: 12px;
   width: 100%;
+  color: grey;
   
   
 }
 
+
+/*COLONNA DX*/
 
 .col-dx {
   background-image: url(../img/img-3.jpg);
@@ -167,6 +164,7 @@ main .title{
   width: 19%;
   border-radius: 10px;
   margin-left: 1%;
+  float: left;
   
   
 }
@@ -175,19 +173,13 @@ main .title{
 .col-dx-text p{
   text-align: justify;
   font-size: 12px;
+  color: grey;
   width:   100%;
+
 }
 
 
-
-.col-center-text p{
-  text-align: justify;
-  font-size: 12px;
-  width:   100%;
-}
- 
-
-
+/*COLONNA CENTRALE*/
 
 .center{
    width: 60%;
@@ -198,14 +190,16 @@ main .title{
   background-position: center;
   background-size:cover ;
   background-repeat: no-repeat;
-  
-  
- 
-}
+  }
 
-.col-dx,.col-sx,.center{
-  margin-bottom: 10px;
-}
+  .col-center-text p{
+    text-align: justify;
+    font-size: 12px;
+    color: grey;
+    width:   100%;
+  }
+   
+
 
 /*FOOTER*/
 
@@ -221,4 +215,11 @@ footer .foot-section::after{
   color: red;
   font-size: 20px;
 }
+
+  
+ 
+
+
+
+
 
