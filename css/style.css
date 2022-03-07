@@ -11,6 +11,11 @@ body{
   font-family: 'Roboto Mono', monospace;
 }
 
+h1{
+  font-size: 40px;
+  
+}
+
 .container{
   width: 80%;
   max-width: 1100px;
@@ -30,9 +35,11 @@ body{
 }
 
 
+
 .overlay{
   background-color: rgba(0,0,0,.3);
   height: 100%;
+  
   border-radius: 10px;
 }
 /*HEADER*/
@@ -50,7 +57,7 @@ header .nav-bar .logo{
 
 header .nav-bar .logo img{
   height: 50px; 
-  border-right:1px solid black ; 
+  border-right:1px solid rgb(133, 132, 132) ; 
   padding-right: 10px;
 }
  
@@ -113,8 +120,9 @@ main .main-title{
 /*/jumbotron*/
 
 .main-content{
+  height: 900px;
 
-  height: 800px;
+  
   
 }
 
@@ -124,23 +132,37 @@ main .title{
   
 }
 
+
 .title p{
   color: grey;
 }
 
 /*COLONNA SX*/
 
-.col-sx {
+
+
+ .col-sx {
   background-image: url(../img/img-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
+
+  background-size: cover;
+  
+  border-radius: 10px;
   height: 30%;
   width: 19%;
-  border-radius: 10px;
+margin-right: 1%; 
+float: left;
+ 
+  
+  
+}
+
+.col-sx-text{
+  height: 30%;
+  width: 19%;
   margin-right: 1%;
   float: left;
-  
-  
 }
 
 .col-sx-text p{
@@ -157,7 +179,6 @@ main .title{
 
 .col-dx {
   background-image: url(../img/img-3.jpg);
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 30%;
@@ -167,6 +188,13 @@ main .title{
   float: left;
   
   
+}
+
+.col-dx-text{
+  height: 30%;
+    width: 18%;
+    margin-right: 1%;
+    float: left;
 }
 
 
@@ -190,6 +218,14 @@ main .title{
   background-position: center;
   background-size:cover ;
   background-repeat: no-repeat;
+  }
+
+  .col-center-text{
+    height: 30%;
+    width: 60%;
+    margin-right: 1%;
+    float: left;
+
   }
 
   .col-center-text p{
